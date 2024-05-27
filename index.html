@@ -1,17 +1,28 @@
 <!DOCTYPE html>
-  <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APK Download</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="scripts.js" defer></script>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Télécharger Chatlysper!</h1>
-      <p>Cliquer sur le bouton en bas pour récupérer le fichier APK.</p>
-      <a class="download-btn" href="app-armeabi-v7a-release.apk" download>Télécharger APK</a>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APK Download</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Télécharger Chatlysper!</h1>
+    <p>Cliquez sur le bouton correspondant à votre architecture pour récupérer le fichier APK.</p>
+    <div>
+      <a class="download-btn" href="app-armeabi-v7a-release.apk" download>Télécharger APK pour architecture armeabi-v7a</a>
+      <p>Compatible avec la plupart des appareils Android.</p>
     </div>
-  </body>
+    <div>
+      <a class="download-btn" href="app-arm64-v8a-release.apk" download>Télécharger APK pour architecture arm64-v8a</a>
+      <p>Optimisé pour les appareils Android modernes.</p>
+    </div>
+    <div>
+      <a class="download-btn" href="app-x86_64-release.apk" download>Télécharger APK pour architecture x86_64</a>
+      <p>Pour les appareils Android utilisant l'architecture x86_64.</p>
+    </div>
+  </div>
+</body>
 </html>
